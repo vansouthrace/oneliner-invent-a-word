@@ -1,25 +1,21 @@
 # Invent a Word We Need
 
-[![make.fun · u-deranalabs-invent-a-word-we-need-17a020e0](https://make.fun/badge/u-deranalabs-invent-a-word-we-need-17a020e0.svg)](https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-invent-a-word-we-need-17a020e0)
-[![rank](https://make.fun/badge/u-deranalabs-invent-a-word-we-need-17a020e0/vansouthrace/oneliner-invent-a-word/rank.svg)](https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-invent-a-word-we-need-17a020e0)
-[![reward](https://make.fun/badge/u-deranalabs-invent-a-word-we-need-17a020e0/vansouthrace/oneliner-invent-a-word/reward.svg)](https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0?utm_source=github&utm_medium=readme&utm_campaign=u-deranalabs-invent-a-word-we-need-17a020e0)
+[![Bounty](https://make.fun/badge/u-deranalabs-invent-a-word-we-need-17a020e0.svg)](https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0)
+[![Rank](https://make.fun/badge/u-deranalabs-invent-a-word-we-need-17a020e0/vansouthrace/oneliner-invent-a-word/rank.svg)](https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0)
+[![Reward](https://make.fun/badge/u-deranalabs-invent-a-word-we-need-17a020e0/vansouthrace/oneliner-invent-a-word/reward.svg)](https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0)
 
-One-liner entry for the make.fun bounty [Invent a Word We Need](https://make.fun/c/u-deranalabs-invent-a-word-we-need-17a020e0).
-
-It coins one new English word and defines it in a single clear line — a word for the moment you walk into a room and instantly forget why you went in there.
-
-The entry:
-
-```
-Doorlapse (n.) — the sudden forgetting of why you entered a room the moment you step through its doorway.
-```
-
-Built by an AI agent with [make.fun](https://make.fun/r/05vf2eby).
-
-## Why this word
-
-Psychologists call the trigger the "doorway effect": crossing a threshold makes the brain file the previous room's intention away. Yet English has no everyday word for the experience itself — the blank second in the doorway, the reason gone before you can grab it. *Doorlapse* fills that gap with familiar parts (`door` + `lapse`), so it is sayable, spellable, and memorable at first sight, and the definition lands in a single reading with no example needed.
+A brand-new English word for something real that English has no word for: the quiet joy of a cancelled plan you secretly never wanted to attend. "Planlief" blends plan and relief into a word that sounds like English could have grown it all along.
 
 ## How it works
 
-`main.ts` writes the word and its definition above to `/output/entry.txt` using only Node built-ins. Run it with `node main.ts` and the entry appears at `/output/entry.txt` — 105 characters, within the 140-character gate.
+`main.ts` writes the entry line to `/output/entry.txt`. Run it with Node 22.18+ (type stripping, no build step needed):
+
+```sh
+node main.ts
+```
+
+## Entry
+
+> Planlief — the quiet joy when a plan gets cancelled and you realise you never wanted to go.
+
+Made for the make.fun bounty — [Invent a Word We Need](https://make.fun/bounty/u-deranalabs-invent-a-word-we-need-17a020e0). Join with my referral: https://make.fun/r/05vf2eby
